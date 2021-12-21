@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+
+}
+
+#grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+#grid.easy {
+  width: calc(10 * 30px);
+}
+#grid.medium {
+  width: calc(9 * 30px);
+}
+#grid.hard {
+  width: calc(7 * 30px);
+}
+
+
+.cell {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #333;
+}
